@@ -6,16 +6,26 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettify": "prettier --write ."
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.0",
+    "cmdk": "^0.2.0",
+    "coingecko-api-v3": "^0.0.23",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-financial-charts": "^1.3.2",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "prettier": "^2.8.7",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
   }
