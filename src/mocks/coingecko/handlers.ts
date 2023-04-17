@@ -6,14 +6,10 @@ import coinsIdBitcoinOHLC30d from "./coins-id-bitcoin-ohlc-30d.json"
 import coinsIdBitcoinOHLC365d from "./coins-id-bitcoin-ohlc-365d.json"
 import coinsIdBitcoinOHLCAll from "./coins-id-bitcoin-ohlc-all.json"
 import coinsIdBitcoin from "./coins-id-bitcoin.json"
-import coinsList from "./coins-list.json"
 import searchTrending from "./search-trending.json"
 import search from "./search.json"
 
 export const handlers = [
-  rest.get("https://api.coingecko.com/api/v3/coins/list", (req, res, ctx) => {
-    return res(ctx.json(coinsList))
-  }),
   rest.get("https://api.coingecko.com/api/v3/search", (req, res, ctx) => {
     return res(ctx.json(search))
   }),

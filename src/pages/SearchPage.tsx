@@ -22,7 +22,7 @@ export const SearchPage = () => {
   return (
     <Container>
       <Stack direction="column" alignItems="center" spacing={4} my={10}>
-        <Typography variant="h1">Search Coin</Typography>
+        <Typography variant="h1">Gecko Minimal</Typography>
         <Box width={700}>
           <SearchBox
             allCoins={allCoins || "loading"}

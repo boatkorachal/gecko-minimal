@@ -39,14 +39,12 @@ const queryClient = new QueryClient({
 })
 
 // Start the mocking conditionally.
-// if (process.env.NODE_ENV === "development") {
-//   const { worker } = await import("./mocks/browser")
-//   await worker.start({
-//     onUnhandledRequest(request, print) {
-//       return
-//     },
-//   })
-// }
+if (process.env.NODE_ENV === "development" && import.meta.env.VITE_MOCK_COINGECKO === "true") {
+  const { worker } = await import("./mocks/browser")
+  await worker.start({
+    onUnhandledRequest(request, print) {},
+  })
+}
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
