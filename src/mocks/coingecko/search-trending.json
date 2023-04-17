@@ -1,0 +1,110 @@
+{
+  "coins": [
+    {
+      "item": {
+        "id": "arbitrum",
+        "coin_id": 16547,
+        "name": "Arbitrum",
+        "symbol": "ARB",
+        "market_cap_rank": 33,
+        "thumb": "https://assets.coingecko.com/coins/images/16547/thumb/photo_2023-03-29_21.47.00.jpeg?1680097630",
+        "small": "https://assets.coingecko.com/coins/images/16547/small/photo_2023-03-29_21.47.00.jpeg?1680097630",
+        "large": "https://assets.coingecko.com/coins/images/16547/large/photo_2023-03-29_21.47.00.jpeg?1680097630",
+        "slug": "arbitrum",
+        "price_btc": 5.434564723642511e-5,
+        "score": 0
+      }
+    },
+    {
+      "item": {
+        "id": "tominet",
+        "coin_id": 28730,
+        "name": "tomiNet",
+        "symbol": "TOMI",
+        "market_cap_rank": 246,
+        "thumb": "https://assets.coingecko.com/coins/images/28730/thumb/logo_for_token.png?1673690005",
+        "small": "https://assets.coingecko.com/coins/images/28730/small/logo_for_token.png?1673690005",
+        "large": "https://assets.coingecko.com/coins/images/28730/large/logo_for_token.png?1673690005",
+        "slug": "tominet",
+        "price_btc": 8.613104291245456e-5,
+        "score": 1
+      }
+    },
+    {
+      "item": {
+        "id": "optimus-ai",
+        "coin_id": 29328,
+        "name": "Optimus AI",
+        "symbol": "OPTI",
+        "market_cap_rank": 520,
+        "thumb": "https://assets.coingecko.com/coins/images/29328/thumb/Optimus_AI_Logo.png?1678170818",
+        "small": "https://assets.coingecko.com/coins/images/29328/small/Optimus_AI_Logo.png?1678170818",
+        "large": "https://assets.coingecko.com/coins/images/29328/large/Optimus_AI_Logo.png?1678170818",
+        "slug": "optimus-ai",
+        "price_btc": 1.666386241147697e-5,
+        "score": 2
+      }
+    },
+    {
+      "item": {
+        "id": "xen-crypto",
+        "coin_id": 27713,
+        "name": "XEN Crypto",
+        "symbol": "XEN",
+        "market_cap_rank": 472,
+        "thumb": "https://assets.coingecko.com/coins/images/27713/thumb/Xen.jpeg?1665453190",
+        "small": "https://assets.coingecko.com/coins/images/27713/small/Xen.jpeg?1665453190",
+        "large": "https://assets.coingecko.com/coins/images/27713/large/Xen.jpeg?1665453190",
+        "slug": "xen-crypto",
+        "price_btc": 1.8360875224777632e-10,
+        "score": 3
+      }
+    },
+    {
+      "item": {
+        "id": "baby-doge-coin",
+        "coin_id": 16125,
+        "name": "Baby Doge Coin",
+        "symbol": "BABYDOGE",
+        "market_cap_rank": 95,
+        "thumb": "https://assets.coingecko.com/coins/images/16125/thumb/babydoge.jpg?1676303229",
+        "small": "https://assets.coingecko.com/coins/images/16125/small/babydoge.jpg?1676303229",
+        "large": "https://assets.coingecko.com/coins/images/16125/large/babydoge.jpg?1676303229",
+        "slug": "baby-doge-coin",
+        "price_btc": 1.1161907262890767e-13,
+        "score": 4
+      }
+    },
+    {
+      "item": {
+        "id": "radiant-capital",
+        "coin_id": 26536,
+        "name": "Radiant Capital",
+        "symbol": "RDNT",
+        "market_cap_rank": 276,
+        "thumb": "https://assets.coingecko.com/coins/images/26536/thumb/Radiant-Logo-200x200.png?1658715865",
+        "small": "https://assets.coingecko.com/coins/images/26536/small/Radiant-Logo-200x200.png?1658715865",
+        "large": "https://assets.coingecko.com/coins/images/26536/large/Radiant-Logo-200x200.png?1658715865",
+        "slug": "radiant-capital",
+        "price_btc": 1.5256438253433541e-5,
+        "score": 5
+      }
+    },
+    {
+      "item": {
+        "id": "woo-network",
+        "coin_id": 12921,
+        "name": "WOO Network",
+        "symbol": "WOO",
+        "market_cap_rank": 91,
+        "thumb": "https://assets.coingecko.com/coins/images/12921/thumb/w2UiemF__400x400.jpg?1603670367",
+        "small": "https://assets.coingecko.com/coins/images/12921/small/w2UiemF__400x400.jpg?1603670367",
+        "large": "https://assets.coingecko.com/coins/images/12921/large/w2UiemF__400x400.jpg?1603670367",
+        "slug": "woo-network",
+        "price_btc": 1.1289565083892907e-5,
+        "score": 6
+      }
+    }
+  ],
+  "exchanges": []
+}

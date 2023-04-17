@@ -7,26 +7,43 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prettify": "prettier --write ."
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.0",
+    "@tanstack/react-query": "^4.29.2",
     "cmdk": "^0.2.0",
-    "coingecko-api-v3": "^0.0.23",
+    "d3-format": "^3.1.0",
+    "d3-time-format": "^4.1.0",
+    "dayjs": "^1.11.7",
+    "highcharts": "^10.3.3",
+    "highcharts-react-official": "^3.2.0",
+    "match-sorter": "^6.3.1",
+    "numerable": "^0.3.15",
     "react": "^18.2.0",
+    "react-cmdk": "^1.3.8",
     "react-dom": "^18.2.0",
-    "react-financial-charts": "^1.3.2",
     "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/d3-format": "^3.0.1",
+    "@types/d3-time-format": "^4.0.0",
+    "@types/node": "^18.15.11",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "msw": "^1.2.1",
     "prettier": "^2.8.7",
+    "sass": "^1.62.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

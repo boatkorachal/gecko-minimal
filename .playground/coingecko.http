@@ -1,0 +1,26 @@
+@base_url = https://api.coingecko.com/api/v3
+
+### List all coins
+GET {{base_url}}/coins/list
+Content-Type: application/json
+
+### List trendings
+GET {{base_url}}/search/trending
+Content-Type: application/json
+
+### List search
+GET {{base_url}}/search
+Content-Type: application/json
+
+### Get coin data
+@coin = ethereum
+GET {{base_url}}/coins/{{coin}}
+Content-Type: application/json
+
+### Get coin history price
+GET {{base_url}}/coins/{{coin}}/market_chart?vs_currency=usd&days=7
+Content-Type: application/json
+
+### Get coin ohlc price
+GET {{base_url}}/coins/{{coin}}/ohlc?vs_currency=usd&days=180
+Content-Type: application/json
